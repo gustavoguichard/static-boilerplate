@@ -1,0 +1,14 @@
+$logo-height: 44px;
+$menu-font: 15px;
+
+.main-menu {
+  position: fixed;
+  top: -$header-height;
+  z-index: 100;
+  background: rgba(#222, .85);
+  transition: top .3s;
+
+  &.menu-open {
+    top: 0;
+  }
+}

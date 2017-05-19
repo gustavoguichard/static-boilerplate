@@ -1,0 +1,56 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: white;
+  color: $gray-darker;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top: $header-height;
+
+  * {
+    box-sizing: border-box;
+  }
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover, &:active {
+    text-decoration: underline;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.img-replace {
+  display: block;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+::selection {
+  background-color: $blue;
+  color: #fff;
+  text-shadow: none;
+}
